@@ -724,7 +724,7 @@
   'version 1
   'name reportname
   'report-guid "0769e242be474010b4acf264a5512e34"
-  'menu-name (N_ "My Budget")
+  'menu-name (N_ "Custom Budget")
   'menu-tip (N_ "Display a budget report")
   'menu-path (list gnc:menuname-utility)
   'options-generator options-generator

@@ -207,7 +207,7 @@
                       (acct-type (xaccAccountGetType acct))
                       (values-list (get-val acct-desc 'acct-values))) ?>
         <tr class="account depth-<?scm:d display-depth ?>">
-          <td class="anchor-cell"><?scm:d (custom:html-make-nbsps display-depth) ?><a href="gnc-register:acct-guid=<?scm:d (get-val acct 'account-guid) ?>#"><?scm:d name ?></a></td>
+          <td class="anchor-cell"><?scm:d (custom:html-make-nbsps display-depth) ?><a href="gnc-register:acct-guid=<?scm:d (get-val acct-desc 'account-guid) ?>#"><?scm:d name ?></a></td>
           <td></td>
           <td></td>
           <?scm (for value in values-list do
